@@ -1,8 +1,10 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Home from './pages/home/Home';
-import Contact from './pages/contact/Contact';
+
+//pages
+import { Home, Contact } from './pages';
+
+// components
+import { Header, Footer } from './components';
 
 function App() {
   return (
